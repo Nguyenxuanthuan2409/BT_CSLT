@@ -1,0 +1,19 @@
+//t in ra man hinh hinh chu nhat
+#include <iostream>
+using namespace std;
+int main ()
+{
+	int d,r;
+	cout <<" Nhap vao chieu dai hinh chu nhat: ";
+	cin >> d;
+	cout <<" Nhap vao chieu rong hinh chu nha: ";
+	cin >> r;
+	for ( int i = 1; i <= r;i++)
+	{
+		for ( int j = 1; j <=d; j++)
+			cout <<" * " <<" ";
+		cout << endl;
+	}
+	system ( "pause");
+	return 0;
+}
